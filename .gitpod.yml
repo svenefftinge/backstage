@@ -1,0 +1,6 @@
+tasks:
+  - init: yarn install && yarn build
+    command: yarn workspace @spotify-backstage/app start
+ports:
+  - port: 3000
+    onOpen: ignore
